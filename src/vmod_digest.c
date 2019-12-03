@@ -488,6 +488,7 @@ vmod_hmac_ ## hash(VRT_CTX, const char *key, const char *msg) \
 }
 
 
+VMOD_HMAC_FOO(sha512,SHA512)
 VMOD_HMAC_FOO(sha256,SHA256)
 VMOD_HMAC_FOO(sha1,SHA1)
 VMOD_HMAC_FOO(md5,MD5)
